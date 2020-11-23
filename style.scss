@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+// ------------- MIXINS ------------- //
 @mixin transition($time, $property: all, $easing: ease-in) {
     transition: $property $time $easing;
 }
 
+// ------------- VARIABLES ------------- //
 $parallax-offset: 30vh;
 $content-offset: 40vh;
 $transition-speed: 1.2s;
